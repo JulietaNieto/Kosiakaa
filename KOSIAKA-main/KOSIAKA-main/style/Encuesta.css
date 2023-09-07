@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bree Serif', serif;
+    
+
+}
+
+
+nav {
+    background-color:  rgb(252, 7, 7);
+    padding: 10px 0;
+    animation-name: izquierda;
+    animation-duration: 3s;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 97%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    font-size: 1.3rem;
+
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+li {
+    margin: 5px 20px;
+}
+@keyframes izquierda {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.first {
+    display: flex;
+    flex-direction: raw;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+
+    height:100vh;
+}
+.subs{
+    margin-top: 20px;
+}
